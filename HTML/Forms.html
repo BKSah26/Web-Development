@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Forms</title>
+</head>
+<body>
+	<form>
+		<label for="email">Email: </label>
+		<input type="text" id="email" placeholder="Enter Email">
+
+		<br>
+		<br>
+
+		<label for="password">Password: </label>
+		<input type="password" id="password" placeholder="Enter Password">
+
+		<br>
+		<br>
+
+		<input type="submit" value="Submit">
+		
+	</form>
+
+	<br>
+
+	<fieldset>
+		<legend>Feedback Form</legend>
+		<form>
+			<label for="datepicker">Enter Date of Visit: </label>
+			<input type="date" id="datepicker" name="Date of Visit">
+
+			<br>
+			<br>
+
+			<label for="dish">Select Ordered Dish: </label>
+			<select name="Dish" id="dish">
+				<option value="Pasta">Pasta</option>
+				<option value="Noodles">Noodles</option>
+				<option value="Burger">Burger</option>
+				<option value="Pizza">Pizza</option>
+				<option value="Burrito">Burrito</option>
+				<option value="Taco">Taco</option>
+			</select>
+
+			<br>
+			<br>
+
+			<label for="feedback">Enter Feedback: </label>
+			<br>
+			<textarea id = "feedback" cols="30" rows="10" placeholder="Feedback" name="Feedback"></textarea>
+
+			<br>
+			<br>
+			
+			<button>Submit</button>
+		</form>
+	</fieldset>
+
+	<br>
+
+	<fieldset>
+		<legend>
+			Form
+		</legend>
+		<form>
+			<label for="name">Name:</label>
+			<input type="text" name="Name" id="name">
+
+			<br>
+			<br>
+
+			<label for="dateofjoing">Date of Joining:</label>
+			<input type="date" name="Date of Joining" id ="dateofjoining">
+
+			<br>
+			<br>
+			
+			<p>Gender:</p>
+			<input type="radio" name="Gender" id = "male">
+			<label for="male">Male</label>
+			<br>
+			<input type="radio" name="Gender" id = "female">
+			<label for="female">Female</label>
+
+			<br>
+
+			<p>Skills:</p>
+			<input type="checkbox" name="Skills" id = "dsa">
+			<label for="dsa">Data Structures and Algorithms</label>
+			
+			<br>
+			<input type="checkbox" name="Skills" id = "webdev">
+			<label for="webdev">Web Development</label>
+			
+			<br>
+			<input type="checkbox" name="Skills" id = "androiddev">
+			<label for="androiddev">Android Development</label>
+			
+
+			<br>
+			<br>
+
+			<label for="newpassword">Password:</label>
+			<input type="password" name="Password" id="newpassword">
+			
+			<br>
+			<br>
+
+			<label for="resume">Upload Resume:</label>
+			<input type="file" name="Resume" id = "resume">
+			
+			<br>
+			<br>
+
+			<label for="download">Download Details:</label>
+			<input type="image" id = "download" alt="Download Details" src="Download.jpg" width="25px" height="25px">
+
+			<br>
+			<br>
+
+			<input type="button" value="Create Account">
+			
+		</form>
+	</fieldset>
+</body>
+</html>
