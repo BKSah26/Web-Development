@@ -1,20 +1,30 @@
 let name = "Tony Stark";
 console.log(name);
+typeof name;
 
-let age = 37;
+let age = 24;
 console.log(age);
+typeof age;
+
+let result = true;
+console.log(result);
+typeof result;
 
 let x = null;
 console.log(x);
+typeof x;
 
-let y = undefined;
+let y;
 console.log(y);
+typeof y;
 
-let boolx = true;
-console.log(boolx)
+let num = BigInt("123");
+console.log(num);
+typeof num;
 
-let booly = false;
-console.log(booly)
+let sym = Symbol("Hello!");
+console.log(sym);
+typeof sym;
 
 const pi = 3.14;
 //Constant values cannot be redefined.
