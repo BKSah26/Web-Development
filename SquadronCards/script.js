@@ -3,7 +3,7 @@ let arr = ["apaches.jpg", "braves.jpg", "cheetahs.jpg", "daggers.jpg", "eagles.j
 let main = document.getElementById("main");
 let s = "";
 for (let i=1; i<=44; i++){
-    let ran = Math.floor(Math.random()*18);
+    let ran = Math.floor(Math.random()*arr.length);
     s+=`<div class="card"><img src="${arr[ran]}" alt=""></div>`;
 }
 main.innerHTML=s;
