@@ -1,0 +1,33 @@
+*{
+	margin: 0%;
+	padding: 0%;
+	box-sizing: border-box;
+}
+
+html, body{
+	height: 100%;
+	width: 100%;
+	display: flex;
+}
+
+#main{
+	height: 100%;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#bulb{
+    height: 250px;
+    width: 150px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+	justify-content: center;
+    overflow: hidden;
+}
+
+#bulb img{
+    width: 90%;
+}

@@ -8,6 +8,7 @@ html, body{
 	height: 100%;
 	width: 100%;
 	display: flex;
+	background-color: black;
 }
 
 #main{
@@ -22,8 +23,8 @@ html, body{
 .card{
 	height : 150px;
 	width: 100px;
-	background-color: black;
-	border: 1px solid white;
+	background-color: white;
+	border: 1px solid black;
 	border-radius: 5px;
 	margin: 5px;
 	display: flex;
@@ -33,5 +34,5 @@ html, body{
 }
 
 .card img{
-	width: 95%;
+	width: 90%;
 }
