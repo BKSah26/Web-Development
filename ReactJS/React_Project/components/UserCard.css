@@ -1,0 +1,32 @@
+.container{
+    /* box-sizing: border-box; */
+    border-radius: 15%;
+    background-color: khaki;
+    flex-direction: column;
+    display: flex;
+    margin: 10px;
+    padding: 5px;
+    height: 600px;
+    width: 500px;
+    align-items: center;
+    justify-content: center;
+}
+
+#user-heading{
+    color: indigo;
+    font-size: 30px;
+}
+
+#user-img{
+    border: 5px solid black;
+    border-radius: 25%;
+    height: 250px;
+    width: 250px;
+    margin: 10px;
+}
+
+#user-desc{
+    font-size: 20px;
+    padding: 10px;
+    color: darkcyan;
+}
